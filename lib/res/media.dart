@@ -5,5 +5,3 @@ class AppMedia {
   static const planeSit = '$_baseImage/plane_sit.jpg' ;
 
 }
-
-

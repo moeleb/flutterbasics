@@ -1,6 +1,7 @@
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_basics/screens/home_screen.dart';
+import 'package:flutter_basics/screens/profile/profile_screen.dart';
 import 'package:flutter_basics/screens/search/search_screen.dart';
 
 import '../screens/ticket/ticket_view.dart';
@@ -18,7 +19,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
     const HomeScreen(),
     const SearchScreen(),
     const TicketScreen(),
-    const Text('Profile'),
+    const ProfileScreen(),
   ];
   int _selectedIndex = 0;
 
